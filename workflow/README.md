@@ -151,3 +151,32 @@ For more detailed information, refer to:
 - [ ] Basic image obtained
 - [ ] Signal-to-noise ratio acceptable
 - [ ] System stable during operation
+
+## Module Selection and Evolution
+
+Understanding which modules are current and which are obsolete is critical for building a functional ultrasound system. The project has evolved significantly since its inception:
+
+- **First generation**: Individual separate modules (2016)
+- **Current generation**: All-in-one boards and refined modules
+
+For a comprehensive guide on module evolution and recommendations on which modules to use for your build, see the [Module Evolution Guide](module-guide/module-evolution.md).
+
+## Recommended Configurations
+
+Based on the latest module status, we recommend these configurations:
+
+### For Beginners
+- **matty** (un0rick) + **retroATL3** transducer
+- Simplest setup with minimal connections
+
+### For Advanced Users
+- **lit3rick** + **retroATL3** transducer
+- Latest design with enhanced capabilities
+
+### For Educational Settings
+- **pic0** + **retroATL3** transducer
+- Compact and straightforward RP2040-based solution
+
+### For Full Signal Chain Understanding
+- **lite.tbo** + **goblin** + **doj** + **retroATL3** + **elmo**
+- Modular approach with maximum flexibility and learning opportunities
